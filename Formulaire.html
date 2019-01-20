@@ -22,36 +22,42 @@
                 <li class="li1">
                     <a href="TP1_menu.htm" class="nav">Home</a>
                     <a href="Formulaire.html" class="nav">Formulaire</a>
-                    
+
                 </li>
             </ul>
         </nav>    
 
     </div>
     <body>
-        
+
         <div class="cont2">
             <h1>FORMULAIRE</h1>
-        <form action="/ma-page-de-traitement" method="post">
-            <div>
-                <label for="name"><strong class="gras">Nom :</strong></label>
-                <input type="text" id="name" name="user_name" required="required">
-            </div>
+            <form action="/ma-page-de-traitement" method="post">
+                <div>
+                    <label for="name"><strong class="gras">Nom :</strong></label>
+                    <input type="text" id="name" name="user_name" required="required">
+                </div>
+                <br>
+                <div>
+                    <label for="mail"><strong class="gras">e-mail :</strong></label>
+                    <input type="email" id="mail" name="user_mail" required="required">
+                </div>
+                <br>
+                <div>
+                    <label for="msg"><strong class="gras">Message :</strong></label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+            </form>
             <br>
-            <div>
-                <label for="mail"><strong class="gras">e-mail :</strong></label>
-                <input type="email" id="mail" name="user_mail" required="required">
-            </div>
-            <br>
-            <div>
-                <label for="msg"><strong class="gras">Message :</strong></label>
-                <textarea id="msg" name="user_message"></textarea>
-            </div>
-        </form>
-            <br>
-            <div class="button">
-        <button type="submit">Envoyer le message</button>
-    </div>
+            <figure>
+                <figcaption>Listen :</figcaption>
+                <audio
+                       controls
+                       src="Engagez%20moi%20!.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </figure>
             <br>
         </div>
 
