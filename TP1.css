@@ -5,16 +5,15 @@ body{
     font-weight: 300;
 }
 .container{
-   width: 80%;
+    width: 100%;
     margin: 0 auto;
-  
+    background: #55d6aa;
+
 }
 
-header{
-    background: #55d6aa;
-    
-}
-header::after{
+
+
+.container::after{
     content: '';
     display: table;
     clear: both;
@@ -24,26 +23,71 @@ header::after{
     width:130px;
     height:50px;
     padding: 10px;
-   
+    margin-left: 100px;
+
 }
 nav{
     float:right;
 }
 
-nav ul{
+.ul1{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-nav li{
+.li1{
     display: inline-block;
-    margin-left: 70px;
+    margin-right: 100px;
     padding-top: 25px;
 }
 
-nav a{
+.nav{
     color: #444;
-    margin-left: 50px;
+    margin-left: 100px;
     text-decoration: none;
-   
+}
+header{
+    height: 100px;
+    background: #ffffff;
+}
+.name{
+    display:block;
+    text-align:center;
+    padding-top: 10px;
+    font-size: 80px
+
+}
+.presentation{
+    margin-left: auto;
+  margin-right: auto;
+    
+    background: #ffffff;
+    width: 80%;
+}
+.pp{
+    width:112,5px;
+    height:150px;
+    float :left;
+}
+.pres{
+    margin-left: 120px;
+}
+
+.CV{
+    background: #ffffff;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1{
+    color: #30877B;
+    
+}
+.souT{
+    color: #30877B;
+}
+.gras{
+    color: #55d6aa;
 }
